@@ -451,7 +451,7 @@ footer .register{
 }
 
 
-@media (max-width: 870px) {
+@media (max-width: 640px) {
   .blob
   {
     background-position: 60% 35%;
@@ -459,7 +459,7 @@ footer .register{
     padding: 2%
   }
   nav{
-    gap: 20rem;
+    gap: 10rem;
     background-color:var(--Battleshipgray);
     margin-top: -2rem;
     padding: 0px;
@@ -565,6 +565,21 @@ ul li a :hover{
  font-weight: bold;
  margin: .1rem 0 .3rem 0;
  padding-bottom: 0.5%;
+}
+div .gridtext
+{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+  justify-items: stretch;
+  
+    gap: 2rem;
+    margin: 0% 15% 3% 15%;
 }
 footer .register{
  font-size: .5rem;
